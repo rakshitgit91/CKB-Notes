@@ -1,34 +1,43 @@
-#  Weekly progress
+# CKB Builder Notes – Week 6
 
-##  Topics Covered
-- **Validation Model**
-- **Script Basics**
-
----
-
-##  Summary
-In this section, I learned about the **Nervos CKB validation model** and how **scripts** operate within the **Cell Model**.  
-Each cell contains:
-- A **Lock Script** – controls who can spend the cell.  
-- An optional **Type Script** – defines the validation logic for the cell’s data.  
-
-During a transaction, **all scripts are executed**, and if any script fails, the **entire transaction is rejected**.  
-This ensures consistency and security within the blockchain.
+##  Overview
+This repository contains my **Week 6 learning notes** for Nervos CKB development using the **Rust and Java SDKs**.  
+The focus this week was on understanding how to interact with the CKB blockchain programmatically and setting up development environments for different programming languages.
 
 ---
 
-##  Script Structure
-A CKB script consists of the following components:
-- **code_hash** – identifies the script code.  
-- **hash_type** – defines how the hash is calculated (data or type).  
-- **args** – provides the input parameters for the script.  
+##  Week 6 Learning Report
+
+###  Rust SDK
+- Set up the Rust environment for CKB development.
+- Learned to create and manage **cells** and **transactions** using Rust.
+- Interacted with the CKB network via **RPC calls**.
+- Practiced using Rust libraries to handle blockchain data structures.
+
+###  Java SDK
+- Configured Java environment for CKB development.
+- Built simple Java applications connecting to CKB.
+- Sent transactions and queried blockchain data programmatically.
+- Gained understanding of blockchain interaction using Java methods.
 
 ---
 
-##  Learning Highlights
-- Wrote **simple scripts in C**.  
-- Compiled them to **RISC-V architecture** for CKB execution.  
-- Deployed the scripts on the **Nervos CKB test network**.  
-- Learned that the **same script can be reused** with different arguments.  
-- Explored running **JavaScript inside the CKB environment** using **Duktape**.
+##  Key Outcomes
+- Familiarity with **Rust and Java SDKs** for CKB.
+- Ability to **programmatically create and manage cells and transactions**.
+- Understanding of **cross-language dApp development** approaches.
+
+---
+
+##  Next Learning Goals
+- Build a small dApp using Rust or Java SDK.
+- Explore more **advanced SDK features** like scripts and type validation.
+- Integrate SDK with frontend applications for full-stack development.
+
+---
+
+##  References
+- [Nervos Rust SDK Documentation](https://docs.nervos.org/docs/sdk-and-devtool/rust)  
+- [Nervos Java SDK Documentation](https://docs.nervos.org/docs/sdk-and-devtool/java)
+
 
