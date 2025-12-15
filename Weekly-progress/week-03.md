@@ -1,47 +1,24 @@
-#  CKB Builder Track – Weekly Progress Report
----
+# CKB Builder Notes – Week 3
 
-##  Progress This Week
-
-###  Transfer CKB
-
-- Successfully set up and executed a **dApp** to transfer **CKB tokens** using the Nervos network.  
-- Verified transactions through the **blockchain explorer**.  
-- Ensured proper **wallet configuration** for smooth transaction flow.  
-- Gained a deeper understanding of **CKBytes**, **transactions**, and **state management**.
+##  Overview
+This document contains my **Week 3 learning report** as part of my ongoing exploration of the **Nervos CKB blockchain**.  
+This week focused on **understanding the CKB Cell model in depth** and performing **real transactions** using the **CCC SDK**. I also learned how to **store and read data from Cells** on-chain.
 
 ---
 
-###  Store Data on Cell
+##  Week 3 Learning Report
 
-- Implemented functionality to **store and retrieve custom data** on a **CKB cell**.  
-- Tested **data persistence** to ensure accurate storage and retrieval.  
-- Verified **read/write operations** within the CKB blockchain.
+###  Viewing and Transferring a CKB Balance
+I followed the official tutorial **“View and Transfer a CKB Balance”** to understand how balance management works in CKB.
 
----
+Key concepts learned:
+- How **capacity** represents ownership and storage.
+- How **input cells** are consumed in a transaction.
+- How **output cells** are created after a transfer.
+- How transaction fees are handled using cell capacity.
 
-###  Create Token
+Using the **CCC SDK**, I successfully executed a sample transfer and observed how cells change before and after the transaction.
 
-- Developed a **simple dApp** to create a **custom token** on the Nervos blockchain.  
-- Verified token creation and validated it followed the **sUDT (Simple User Defined Token)** standards.  
-- Understood how **token logic** integrates with **CKB smart contracts**.
-
----
-
-##  Learnings Summary
-
-- Gained hands-on experience with **CKB transactions**, **cell data management**, and **token creation**.  
-- Improved understanding of **on-chain logic** through **transfer**, **storage**, and **token generation** exercises.  
-- Strengthened knowledge of **OffCKB tools**, **CLI commands**, and **Nervos network workflow**.
-
----
-
-##  Proof of Work
-
-*(Attach screenshots or terminal outputs as evidence of your completed work)*  
-
-- <img width="854" height="480" alt="image" src="[assets/Screenshot 2025-10-14 223248.png](https://github.com/Arunkumarkanpur/CKB-Builder-Notes/blob/main/assets/Screenshot%202025-10-14%20223248.png?raw=true)" />
-
-
-
-
+Example flow:
+```text
+Input Cells  →  Transaction  →  Output Cells
