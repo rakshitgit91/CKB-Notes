@@ -1,4 +1,4 @@
-# 
+# CKB Builder Notes – Week 7
 
 ---
 
@@ -7,14 +7,14 @@
 This week, I learned the fundamentals of **CKB on-chain scripts** and their role in transaction validation.
 
 - **Class 1:**  
----  Learned about the CKB validation model and the concept of scripts executed in the CKB-VM.
---- Understood the difference between **Lock Scripts** (ownership control) and **Type Scripts** (cell usage rules).  
----  Studied the structure of a script: `code_hash`, `hash_type`, and `args`.
+ Learned about the CKB validation model and the concept of scripts executed in the CKB-VM.
+ Understood the difference between **Lock Scripts** (ownership control) and **Type Scripts** (cell usage rules).  
+ Studied the structure of a script: `code_hash`, `hash_type`, and `args`.
 
 - **Class 2:**  
----  Learned how to write and deploy script code on CKB.  
----  Understood that scripts are **RISC-V executables** executed by the CKB virtual machine.  
---- Explored a simple C-based script example and the compilation process.
+ Learned how to write and deploy script code on CKB.  
+ Understood that scripts are **RISC-V executables** executed by the CKB virtual machine.  
+ Explored a simple C-based script example and the compilation process.
 
 ---
 
